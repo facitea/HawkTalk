@@ -62,6 +62,45 @@ express.js
 9개월 프로젝트
 
 =============================
+vue 학습 내용
+
+
+라우터 링크 - 링크형식으로 누르면 화면 전환됨
+ㄴ링크 누르면 /about 형식처럼 주소도 변함
+
+views 폴더에 라우팅 될 페이지 정리
+
+index.js 파일에서 라우트 레벨에서 코드를 분할하는 것
+
+{
+    path: '/about',
+    name: 'about',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+  }
+
+이런식으로 라우트하면 방문했을때 리소스를 로드하게 됨.
+
+prefetch 기능은 미래에 사용될 가능성이 잇는 리소스를 캐시에 저장해두는 것 - 잘못사용하면 렌더링 시간이 늘어날 수 있다.
+ㄴ첫 화면을 가장 마지막에 가져온다
+ㄴ리소스가 크지 않다면 기능을 사용하지 않더라도 사용자 접속 시점에 다운받아도 매끄럽게 동작한다
+ㄴ리소스가 매우 크다면 미리 받는게 나을수도 있음
+
+views 폴더에 우리가 페이지라고 부르는 화면 하나하나에 해당하는 vue 컴포넌트 파일을 생성하고
+components 폴더에는 다른 vue 파일에서 호출해서 공통으로 사용할수 있는 vue 컴포넌트 파일을 생성하고 관리
+
+snippet 기능 - 코드 작성한거 등록해놓고 단축키로 코드 가져오기
+
+v-html : 태그 형식으로 html 코드를 넣을수 있음
+
+<input type="text" v-model="valueModel" />
+ㄴv-model을 통해 value값을 data에 저장하는듯
+ㄴv-model.number로 하면 숫자로 저장됨
+
+textarea v-model="@@@"로 해야 텍스트에어리어 사용가능
+===================================================
 22/4/3
 vue 전체 기본 형식 파악 및 이식
 ->디자인과 함께 router link 관한 학습 이루어져야 함.
