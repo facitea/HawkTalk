@@ -122,3 +122,7 @@ SNS에 집중한 것인 만큼 모바일 친화적인 반응형으로 구성할 
 
 https://code-study.tistory.com/22
 제이쿼리 통해서 무한 스크롤이 된다.
+
+22/5/7
+git push -u origin +master
+pull 해도 안되면 이렇게라도 해야한다.
