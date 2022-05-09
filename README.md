@@ -126,3 +126,14 @@ https://code-study.tistory.com/22
 22/5/7
 git push -u origin +master
 pull 해도 안되면 이렇게라도 해야한다.
+
+22/5/9
+error  'user' is defined but never used  no-unused-vars
+
+다음과 같은 에러가 뜰 경우, 에러가 발생한 줄 옆에
+
+ 
+
+// eslint-disable-line no-unused-vars
+
+위의 주석을 달아주면 해결된다
