@@ -137,3 +137,10 @@ error  'user' is defined but never used  no-unused-vars
 // eslint-disable-line no-unused-vars
 
 위의 주석을 달아주면 해결된다
+
+https://gyoogle.dev/blog/web-knowledge/vue-knowledge/Vue.js%20+%20Firebase%EB%A1%9C%20%EC%9D%B4%EB%A9%94%EC%9D%BC%20%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85,%20%EB%A1%9C%EA%B7%B8%EC%9D%B8%20%EA%B5%AC%ED%98%84.html
+
+https://codingapple.com/unit/firebase-installation-with-npm/?id=9822
+
+이 두개로 파이어베이스 연동 성공
+최신버전 말고 구버전 쓰면 됨 ㅠㅠ-
