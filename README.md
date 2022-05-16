@@ -144,3 +144,22 @@ https://codingapple.com/unit/firebase-installation-with-npm/?id=9822
 
 이 두개로 파이어베이스 연동 성공
 최신버전 말고 구버전 쓰면 됨 ㅠㅠ-
+
+22/5/16
+최소 생계 유지 연봉 3000
+나의 희망 연봉 3700
+ㄴ3000 목표로 정진하자
+
+★★
+%필요한것(22/5~23/12)
+JS/CSS - 지속적 학습
+Vue - 4개월
+React - 4개월
+Next.js - 3개월
+알고리즘 - 4
+
+%덜필요한것
+Node.js
+go/python
+java순으로 학습할 것
+★★
